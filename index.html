@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS + JavaScript Interactive Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Interactive Experience 🎨✨</h1>
+
+  <!-- Part 1: Buttons with hover animations -->
+  <button class="fancy-btn">Hover Me!</button>
+
+  <!-- Part 2 & 3: Box that animates when clicked -->
+  <div class="box" id="animateBox"></div>
+  <button id="animateBtn">Animate the Box</button>
+
+  <!-- Modal for Part 3 -->
+  <button id="openModal">Open Modal</button>
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <h2>✨ Modal Window ✨</h2>
+      <p>This modal slides in and fades out using CSS + JS!</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
